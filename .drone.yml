@@ -26,7 +26,7 @@ steps:
         from_secret: DOCKER_USERNAME
       password:
         from_secret: DOCKER_PASSWORD
-      repo: marcsello/telegraf-anti-cheat-proxy
+      repo: marcsello/telegraf-tag-auth-proxy
       tags:
         - latest
         - ${DRONE_BUILD_NUMBER}
